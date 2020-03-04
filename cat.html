@@ -15,15 +15,32 @@
 <!-- Body -->
 
 <body>
-    <div class="block1">
-    <h2>Number of Clicks: <span id="clicks1">0</span> </h2>
-    <!-- thanks to http://4.bp.blogspot.com/-d68l8RLoLc4/UWAJF-ofbJI/AAAAAAAAST4/SUJbO2Dz-RI/s1600/cat1.jpg -->
-    <img src="catsincup.jpg" alt="Cats in a cup" id="catClicked1" class="responsive" height="520" width="620">
-</div>
-<div class="block2">
-    <h2>Number of Clicks: <span id="clicks2">0</span> </h2>
-    <!-- thanks to http://3.bp.blogspot.com/_0A0AHYmotyw/TKjIJNzLqAI/AAAAAAAAAA4/LNwxFTXwbWQ/s1600/Cat+on+apple.jpg -->
-    <img src="catonapple.jpg" alt="Cats on an apply" id="catClicked2" class="responsive" height="520" width="620">
+  <div class="row">
+    <div class="column left">
+      <h3>Please click on cats to display the purrrrrture:</h3>
+      <ul>
+        <li>
+          <button id="0">Cat 0</button>
+        </li>
+        <li>
+          <button id="1">Cat 1</button>
+        </li>
+        <li>
+          <button id="2">Cat 2</button>
+        </li>
+        <li>
+          <button id="3">Cat 3</button>
+        </li>
+        <li>
+          <button id="4">Cat 4</button>
+        </li>
+
+      </ul>
+    </div>
+  <div class="column right">
+    <div id="displaycat">   
+    </div>
+  </div>
 </div>
     <!-- JavaScript -->
   <script src="app.js">

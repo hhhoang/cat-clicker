@@ -2,3 +2,32 @@
     width: 100%;
     height: auto;
   }
+
+.row {
+    display: flex;
+  }  
+
+.column{
+  float: left;
+  padding: 10px;
+  }
+
+.right{
+  width: 75%;
+}
+
+.left{
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
